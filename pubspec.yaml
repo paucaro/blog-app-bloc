@@ -1,0 +1,57 @@
+name: blog_app_bloc
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_bloc: ^3.2.0
+  cloud_firestore: ^0.13.4+2
+  firebase_storage: ^3.1.5
+  equatable: ^1.1.1
+  meta: ^1.1.8
+  intl: ^0.16.1
+  image_picker: ^0.6.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
