@@ -65,12 +65,12 @@ class _HomePageState extends State<HomePage> {
               children: <Widget>[
                 Text(
                   date,
-                  style: Theme.of(context).textTheme.subtitle,
+                  style: Theme.of(context).textTheme.subtitle2,
                   textAlign: TextAlign.center,
                 ),
                 Text(
                   time,
-                  style: Theme.of(context).textTheme.subtitle,
+                  style: Theme.of(context).textTheme.subtitle2,
                   textAlign: TextAlign.center,
                 )
               ],
@@ -83,7 +83,7 @@ class _HomePageState extends State<HomePage> {
             SizedBox(height: 10.0,),
             Text(
               description,
-              style: Theme.of(context).textTheme.subhead,
+              style: Theme.of(context).textTheme.subtitle1,
               textAlign: TextAlign.center,
             )
           ],

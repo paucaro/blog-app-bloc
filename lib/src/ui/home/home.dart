@@ -15,6 +15,11 @@ class Home extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(title: Text("Home"),),
         body: HomePage(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () => Navigator.pushNamed(context, '/addPost'),
+          child: Icon(Icons.add),
+          tooltip: 'Add post',
+        ),
       )
     );
   }
